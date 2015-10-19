@@ -36,6 +36,7 @@ nav ul {
 	border-color: #3B3E41;
  	margin: 0; 
  	padding: 0;
+	width: 100%;
 	}
 
 nav li{
@@ -146,7 +147,7 @@ h3{
 }
 
 nav li{
-  
+  width: 100%;
 }
 
 h1 {
