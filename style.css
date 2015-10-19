@@ -16,10 +16,12 @@ img, object, embed, video {
 	list-style: none;
 	list-style-image: none;
 	margin: 1;
-	padding: 2% 0;
+	padding: 0;
 	float: none;
 	background-color: #7f7f7f7;
 	height: 12.5%;
+	border: 10px solid #3B3E41;
+	position: static;
 }
 
 /* Mobile Layout: 480px and below. */
@@ -47,25 +49,24 @@ h1 {
 	line-height: 2em;
 	width: 100%;
 	color:#FFF;
-	font-family:
-}
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin: 1;
+	}
 
 /* Navigation Bar styles */
 .mainnav {
 	width:100%;
-	height: 12.5%;
 	margin-left: 0;
 	clear: both;
 	background-color: #7f7f7f;
-
-	
 }
 
 nav li {
 	width: 100%;
 	height:12.5%;
 	display: inline-block;
-	
+	position:static;
+	clear: none;
 }
 
 nav a {
@@ -75,15 +76,14 @@ nav a {
 	display: block;
 	font-size: .9em;
 	line-height: 1em;
-
-	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav a:hover,
 nav a:active {
 	color: #FFF;
 	background: #3b3e41;
-	
+	line-height: 2em;
 }
 
 /* Footer styles*/
