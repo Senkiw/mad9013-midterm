@@ -25,7 +25,7 @@ body {
 	padding: 0;
 	float: none;
 	background-color: #7F7F7F;
-	height: 12.5%;
+	height: 7em;
 	border: 10px solid #3B3E41;
 	position: static;
 }
@@ -45,9 +45,11 @@ body {
 
 /* Header style*/
 .masthead {
-	height: 12.5%;
+	height: 7em;
 	background-image:url(images/cats.jpg);
-	background-size:cover;	
+	background-size: cover;
+	background-repeat:no-repeat;
+	position:relative;
 }
 
 h1 {
@@ -60,7 +62,7 @@ h1 {
 	height: 12.5%;
 	padding: 20px 0 0 0;
 	color:#FFF;
-	margin-top: 0;
+	margin-top: .1em;
 	font-size: 2.618em;
 }
 
@@ -129,10 +131,12 @@ h4 {
 
 .content {
 	height: 50%;
+	margin-top:2em;
 }
 
 .side {
 	height: 17%;
+	margin-top: 1em;
 }
 
 img { 
@@ -142,7 +146,7 @@ img {
 
 img.left{
 	float: left;
-	padding: .7em 1em .6em;
+	padding: .7em 1em .6em .3em;
 }
 
 img.right{
