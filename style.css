@@ -1,180 +1,96 @@
 @charset "utf-8";
 
-* {
-	padding: 0;
-	margin: auto;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
- 	-moz-box-sizing: border-box;
-	/*gutter percentage 15%*/
-}
-
 img, object, embed, video {
 	max-width: 100%;
-	padding: 1em;
 }
 
-html, 
-body {
-	background-color: #7F7F7F;
-}
-
-h1 {
-	text-align: center;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color: #FFF;
-	text-shadow: 1px 1px #B9C2CC;
-	padding: 2.5em;
-	font-size: 2em;
-	
-} 
-
-nav {
-	width: 100%;
-}
-
-nav ul {
-	background-color: #7F7F7F;
-	list-style-type: none;
-	overflow: auto;
-	border : 10px solid;
-	border-color: #3B3E41;
- 	margin: 0; 
- 	padding: 0;
-	width: 100%;
-	}
-
-nav li{
-	width: 100%;
-  	display: inline;
-	
-}
-
-/*style for menu links*/
-nav a,
-nav a:link,
-nav a:visited {
-	color:#B9C2CC;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	text-decoration: none;
-	display: inline-block;
-	width: 24%;
-	height: 25%;
-	text-align: center;
-	line-height: 1em;
-	padding: 1em;
-	
-	
-}
-
-nav a:hover,
-nav a:active{
-	color: #FFF;
-	background: #3B3E41;
-	
-}
-
-
-p {
-	text-align: left;
-	padding: 1em;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	background-color: #E7F2FF;
-	text-overflow:clip;
-}
-
-.side p {
-	float: right;
-}
-
-.side img {
-	float:left;
-	margin: 0 10px 0 0
-}
-
-h2{
-	padding: 1em;
-	background-color: #E7F2FF;
-}
-
-h3{
-	padding: 1em;
-	background-color: #E7F2FF;
-}
-.wrapper {
-	padding: 0 3em;
-}
-
-.masthead{
+/* Fluid Styles */
+/*.content {
 	clear: both;
 	margin-left: 0;
 	width: 100%;
-	float: inherit;
-	display: block;
-	background-image:url(images/cats.jpg);
-	background-repeat:no-repeat;
-	background-size:100%;
-	padding: 20px 5px 20px 5px
-}
+	float: left;
+	display: block;*/
 
-.content{
-
-}
-
-.primary{
-
-}
-
-.side{
-	
-}
-
-.footer{
-
+.mainnav ul {
+	list-style: none;
+	list-style-image: none;
+	margin: 1;
+	padding: 2% 0;
+	float: none;
+	background-color: #7f7f7f7;
+	height: 12.5%;
 }
 
 /* Mobile Layout: 480px and below. */
-
-@media only screen and (max-width: 35em) {
-	
-.masthead {
+  
+.wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
-	padding-left: 1.4836%;
-	padding-right: 1.4836%;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
 	clear: none;
 	float: none;
 }
 
-nav li{
-  width: 100%;
-}
-
-nav a,
-nav a:link,
-nav a:visited {
-	font-size: 0.8em;
+/* Header style*/
+.masthead {
 	width: 100%;
-	line-height: .5em;
+	height: 12.5%;
+	background-image:url(images/cats.jpg);
+	
 }
 
 h1 {
 	text-align: center;
-	font-size: 1em;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color: #FFF;
-	text-shadow: 1px 1px #B9C2CC;
-	padding: 1em;
-	overflow: hidden;
-} 
+	line-height: 2em;
+	width: 100%;
+	color:#FFF;
+	font-family:
+}
 
-@media only screen and (min-device-width: 35em) and (max-device-width: 60em) {
-.side {
-	width: 37%;
-	float: right;
+/* Navigation Bar styles */
+.mainnav {
+	width:100%;
+	height: 12.5%;
+	margin-left: 0;
+	clear: both;
+	background-color: #7f7f7f;
 	
+}
+
+nav li {
+	width: 100%;
+	height:12.5%;
+	display: inline-block;
+	
+}
+
+nav a {
+	color: #B9C2CC;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: .8em;
+	line-height: 1em;
+
+	
+}
+
+nav a:hover,
+nav a:active {
+	color: #FFF;
+	background: #3b3e41;
+	
+}
+
+/* Footer styles*/
+/*.footer {
+	width: 100%;
+	margin-left: 0;
+	margin-top: 10px;
+	clear: both;
+	text-align: center;
 }
 }
