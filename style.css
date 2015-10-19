@@ -260,8 +260,9 @@ h1 {
 	float: none;
 	background-color: #7F7F7F;
 	height: 8em;
-	border: 10px solid #3B3E41;
+	border: 12px solid #3B3E41;
 	position: static;
+}
 
 nav li {
 	width: 100%;
