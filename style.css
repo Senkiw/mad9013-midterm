@@ -16,6 +16,7 @@ body {
 	font-size: .8em;
 	font-weight: inherit;
 	color: #3B3E41;
+	line-height: 2em;
 }
 .mainnav ul {
 	list-style: none;
@@ -101,7 +102,7 @@ h2 {
 	margin: 1.414em 0 0.5em;
 	font-weight: inherit;
 	line-height: 1.2em;
-	text-shadow: 2px 2px #3B3E41;
+	text-shadow: 1px 1px #3B3E41;
 	color: #FFF;
 	text-alight: left;
 }
@@ -111,7 +112,7 @@ h3 {
 	margin: 1.414em 0 0.5em;
 	font-weight: inherit;
 	line-height: 1.2em;
-	text-shadow: 2px 2px #3B3E41;
+	text-shadow: 1px 1px #3B3E41;
 	color: #FFF;
 	text-alight: left;
 }
@@ -121,7 +122,7 @@ h4 {
 	margin: 1.414em 0 0.5em;
 	font-weight: inherit;
 	line-height: 1.2em;
-	text-shadow: 2px 2px #3B3E41;
+	text-shadow: 1px 1px #3B3E41;
 	color: #FFF;
 	text-alight: left;
 }
