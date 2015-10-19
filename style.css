@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 * {
-	padding: 0px;
+	padding: 0;
 	margin: auto;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -25,7 +25,8 @@ h1 {
 	color: #FFF;
 	text-shadow: 1px 1px #B9C2CC;
 	padding: 2.5em;
-	font-size: 4em;
+	font-size: 2em;
+	
 } 
 
 nav {
@@ -80,19 +81,29 @@ p {
 	padding: 1em;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
-	
+	background-color: #E7F2FF;
+}
+
+.side p {
+	float: right;
+}
+
+.side img {
+	float:left;
+	margin: 0 10px 0 0
 }
 
 h2{
 	padding: 1em;
+	background-color: #E7F2FF;
 }
 
 h3{
 	padding: 1em;
+	background-color: #E7F2FF;
 }
-
 .wrapper {
-	padding: 1em;
+	padding: 0 3em;
 }
 
 .masthead{
