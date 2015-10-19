@@ -3,7 +3,7 @@
 img, object, embed, video {
 	max-width: 100%;
 }
-
+@media only screen and (max-width : 35em ){
 html,
 body {
 	background-color: #3B3E41;
@@ -64,6 +64,7 @@ h1 {
 	color:#FFF;
 	margin-top: .1em;
 	font-size: 2.618em;
+	text-overflow:clip;
 }
 
 /* Navigation Bar styles */
@@ -175,7 +176,7 @@ img.right{
 	font-weight: inherit;
 	line-height: 1.2em;
 }
-
+}
 @media only screen and (min-width : 35em ) and (max-width : 60.00em ){
 
 html,
@@ -258,6 +259,7 @@ h1 {
 	list-style-image: none;
 	padding: 0;
 	float: none;
+	height: 9em;
 	background-color: #7F7F7F;
 	border: 12px solid #3B3E41;
 	position: static;
