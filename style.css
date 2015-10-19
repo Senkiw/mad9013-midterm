@@ -12,11 +12,11 @@ body {
 	width: 100%;
 	float: left;
 	display: block;
-	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, 		sans-serif;
 	font-size: .8em;
 	font-weight: inherit;
 	color: #3B3E41;
-	line-height: 2em;
+	line-height: 1.7em;
 }
 .mainnav ul {
 	list-style: none;
@@ -96,7 +96,7 @@ nav a:active {
 	background: #3b3e41;
 	line-height: 2em;
 }
-
+/* header fonts*/
 h2 {
 	font-size: 1.618em;
 	margin: 1.414em 0 0.5em;
@@ -127,9 +127,38 @@ h4 {
 	text-alight: left;
 }
 
+.content {
+	height: 50%;
+}
+
+.side {
+	height: 17%;
+}
+
+img { 
+	width: 70%;
+	height: 70%;
+}
+
+img.left{
+	float: left;
+	padding: .7em 1em .6em;
+}
+
+img.right{
+	float: right;
+	padding: .7em 1em .7em 1em;
+}
+
+.side img{
+	float: right;
+	padding: .7em 1em .7em 1em;
+}
+
 /* Footer styles*/
 .footer {
 	width: 100%;
+	height: 8%;
 	margin-left: 0;
 	margin-top: 10px;
 	clear: both;
