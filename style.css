@@ -4,11 +4,14 @@
 	padding: 0px;
 	margin: auto;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
 	/*gutter percentage 15%*/
 }
 
 img, object, embed, video {
 	max-width: 100%;
+	padding: 1em;
 }
 
 html, 
@@ -72,19 +75,20 @@ nav a:active{
 
 p {
 	text-align: left;
+	padding: 1em;
 	
 }
 
 h2{
-
+	padding: 1em;
 }
 
 h3{
-
+	padding: 1em;
 }
 
 .wrapper {
-
+	padding: 1em;
 }
 
 .masthead{
