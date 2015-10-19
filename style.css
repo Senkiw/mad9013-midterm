@@ -12,6 +12,7 @@ body {
 	width: 100%;
 	float: left;
 	display: block;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 .mainnav ul {
 	list-style: none;
@@ -19,7 +20,7 @@ body {
 	margin: 1;
 	padding: 0;
 	float: none;
-	background-color: #7f7f7f7;
+	background-color: #7F7F7F;
 	height: 12.5%;
 	border: 10px solid #3B3E41;
 	position: static;
@@ -40,25 +41,24 @@ body {
 
 /* Header style*/
 .masthead {
-	width: 100%;
 	height: 12.5%;
 	background-image:url(images/cats.jpg);
-	margin: 0;
-	padding: 0;
-	background-size:cover;
-	
-	
+	background-size:cover;	
 }
 
 h1 {
 	text-align: center;
-	line-height: 2em;
+	line-height: 1.2em;
+	line-height: inherit;
+	margin: 1.414em 0 0.5em;
+	text-shadow: 2px 2px #3B3E41;
 	width: 100%;
 	height: 12.5%;
 	padding: 20px 0 0 0;
 	color:#FFF;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	}
+	margin-top: 0;
+	font-size: 2.618em;
+}
 
 /* Navigation Bar styles */
 .mainnav {
@@ -81,9 +81,9 @@ nav a {
 	text-decoration: none;
 	text-align: center;
 	display: block;
-	font-size: .9em;
+	font-size: 1em;
 	line-height: 1em;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-shadow: 2px 2px #3B3E41;
 }
 
 nav a:hover,
@@ -93,12 +93,26 @@ nav a:active {
 	line-height: 2em;
 }
 
+h2 {
+	font-size: 1.618em;
+	margin: 1em 0 0.5em;
+	font-weight: inherit;
+	line-height: 1.2em;
+	text-shadow: 2px 2px #3B3E41;
+	color: #FFF;
+	text-alight: left;
+}
+
+h3 {
+	
+}
 /* Footer styles*/
-/*.footer {
+.footer {
 	width: 100%;
 	margin-left: 0;
 	margin-top: 10px;
 	clear: both;
 	text-align: center;
 }
-}
+
+
