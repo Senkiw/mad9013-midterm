@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+* {
+	padding: 0px;
+	margin: auto;
+	box-sizing: border-box;
+	/*gutter percentage 15%*/
+}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+html, 
+body {
+	background-color: #7F7F7F;
+}
+
+h1 {
+	text-align: center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #FFF;
+	text-shadow: 1px 1px #B9C2CC;
+	padding: 4em;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	background-color: #7F7F7F;
+	list-style-type: none;
+	overflow: auto;
+	border : 10px solid;
+	border-color: #3B3E41;
+ 	margin: 0; 
+ 	padding: 0;
+	}
+
+nav li{
+	float: left;
+  	display: inline-block;
+	margin-right: 1px;
+}
+
+/*style for menu links*/
+nav a,
+nav a:link,
+nav a:visited {
+	color:#B9C2CC;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 1em;
+	padding: 1em;
+	
+	
+}
+
+nav a:hover,
+nav a:active{
+	color: #FFF;
+}
+
+/*hover state for top level links*/
+li:hover a{
+	background: #3B3E41;
+}
+
+/*style for dropdown links*/
+li:hover ul a {
+	background: #000000;
+	color: #FFF;
+	height: 40px;
+	line-height: 40px;
+	}
+
+/*hover state for dropdown link*/
+li:hover ul a:hover {
+	background: #3B3E41;
+	color:#000000;
+	}
+
+p {
+	text-align: left;
+	
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+.wrapper {
+
+}
+
+.masthead{
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: inherit;
+	display: block;
+	background-image:url(cats.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding: 20px 5px 20px 5px
+}
+
+.content{
+
+}
+
+.primary{
+
+}
+
+.side{
+
+}
+
+.footer{
+
+}
+
+/* Mobile Layout: 480px and below. */
+
+@media only screen and (max-width: 35em) {
+	
+.masthead {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 1.4836%;
+	padding-right: 1.4836%;
+	clear: none;
+	float: none;
+}
+
+nav li{
+  
+	
+}
