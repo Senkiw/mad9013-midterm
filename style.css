@@ -54,7 +54,7 @@ nav a:visited {
 	font-size: 1.5em;
 	text-decoration: none;
 	display: inline-block;
-	width: 25%;
+	width: 24%;
 	height: 25%;
 	text-align: center;
 	line-height: 1em;
@@ -66,26 +66,9 @@ nav a:visited {
 nav a:hover,
 nav a:active{
 	color: #FFF;
-}
-
-/*hover state for top level links*/
-li:hover a{
 	background: #3B3E41;
 }
 
-/*style for dropdown links*/
-li:hover ul a {
-	background: #000000;
-	color: #FFF;
-	height: 40px;
-	line-height: 40px;
-	}
-
-/*hover state for dropdown link*/
-li:hover ul a:hover {
-	background: #3B3E41;
-	color:#000000;
-	}
 
 p {
 	text-align: left;
