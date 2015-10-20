@@ -386,9 +386,9 @@ width: 100%;}
 	line-height: 1.2em;
 }
 
-footer{
-	width: 1600px;
-	height: 100em;
+.footer {
+	width: 1600px 1600px;
+	height: 5em;
 	float: clear;
 }
 
