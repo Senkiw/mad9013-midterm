@@ -327,7 +327,6 @@ body {
 	margin-left: 0;
 	width: 100%;
 	float: left;
-	display: block;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, 		sans-serif;
 	font-size: .8em;
 	font-weight: inherit;
@@ -343,23 +342,23 @@ width: 100%;
 .mainnav ul {
 	list-style: none;
 	list-style-image: none;
-	padding: 0;
+	padding-top: 70px;
 	margin-right: 1em;
 	float: left;
 	width: 13%;
-	height: 9em;
+	height: 10em;
 	background-color: #7F7F7F;
-	border: 12px solid #3B3E41;
+	border: 17px solid #3B3E41;
 	position: static;
 	display:block;
 }
 
 .content {
 	float: left;
-	width: 54%;
+	width: 51%;
 	text-align: justify;
-	font-size: 2em; 
-	line-height: 2em;
+	font-size: 2.5em; 
+	line-height: 1.5em;
 	-webkit-column-count: 2;
 	-webkit-column-gap: 2rem;
 	/*chrome*/
@@ -371,17 +370,23 @@ width: 100%;
 	column-count: 2;
 	column-gap: 2rem;
 	margin-top: 2em;
+	text-overflow:clip;
+	margin-right: 1em;
 }
 img {
 width: 100%;}
+
 .side {
 	float: right;
 	width: 29%;
+	font-size: 1em;
+	text-height: 1em;
 }
 
 footer{
 	width: 1600px;
 	height: 100em;
+	float: clear;
 }
 
 h1 {
@@ -395,6 +400,18 @@ h1 {
 	color:#FFF;
 	margin-top: 0;
 	font-size: 4.236em;
+}
+
+h2 {
+	font-size: 2.618em;
+	margin: 1.414em 0 0.5em;
+	font-weight: inherit;
+	line-height: em;
+	text-shadow: 1px 1px #3B3E41;
+	color: #FFF;
+	text-alight: left;
+	padding: 0;
+	margin: 0;
 }
 
 .masthead{
