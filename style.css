@@ -319,4 +319,68 @@ footer {
 }
 }
 
-@media only screen and (min-width : 60em ) and (max-width : 1600px ){
+@media only screen and (min-width : 60em ){
+html,
+body {
+	background-color: #3B3E41;
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, 		sans-serif;
+	font-size: .8em;
+	font-weight: inherit;
+	color: #3B3E41;
+	line-height: 1.7em;
+}
+
+
+.masthead {
+width: 100%; 	
+	}
+	
+.mainnav ul {
+	list-style: none;
+	list-style-image: none;
+	padding: 0;
+	margin-right: 1em;
+	float: left;
+	width: 13%;
+	height: 9em;
+	background-color: #7F7F7F;
+	border: 12px solid #3B3E41;
+	position: static;
+	display:block;
+}
+
+.content {
+	float: left;
+	width: 54%;
+	text-align: justify;
+	font-size: 2em; 
+	line-height: 2.5em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 2rem;
+	/*chrome*/
+
+	-moz-column-count: 2;
+	-moz-column-count:2;
+	/*firefox*/
+
+	column-count: 2;
+	column-gap: 2rem;
+	margin-top: 2em;
+}
+img {
+width: 100%;}
+.side {
+	float: right;
+	width: 29%;
+}
+
+footer{
+	width: 1600px;
+	height: 100em;
+}
+}
