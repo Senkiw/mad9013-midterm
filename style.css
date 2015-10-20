@@ -336,7 +336,8 @@ body {
 
 
 .masthead {
-width: 100%; 	
+width: 100%;
+height: 40em; 	
 	}
 	
 .mainnav ul {
@@ -422,7 +423,7 @@ h2 {
 	margin: 0;
 		}
 .mainnav li {
-	font-size: 3em;	
+	font-size: 1.2em;	
 	}
 
 }
