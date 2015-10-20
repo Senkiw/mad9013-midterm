@@ -337,13 +337,13 @@ body {
 
 .masthead {
 width: 100%;
-height: 40em; 	
+height: 50em; 	
 	}
 	
 .mainnav ul {
 	list-style: none;
 	list-style-image: none;
-	padding-top: 70px;
+	padding-top: 60px;
 	margin-right: 1em;
 	float: left;
 	width: 13%;
