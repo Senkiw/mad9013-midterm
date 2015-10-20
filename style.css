@@ -377,7 +377,8 @@ height: 50em;
 	line-height: 1.7em;
 }
 img {
-width: 100%;
+width: 95%;
+align: center;
 }
 
 .side img{
