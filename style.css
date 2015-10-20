@@ -344,7 +344,7 @@ height: 50em;
 	list-style: none;
 	list-style-image: none;
 	padding-top: 50px;
-	margin-right: 1em;
+	margin-right: 2em;
 	float: left;
 	width: 13%;
 	height: 10em;
@@ -377,13 +377,19 @@ height: 50em;
 	line-height: 1.7em;
 }
 img {
-width: 100%;}
+width: 100%;
+}
+
+.side img{
+	width: 96%;
+	}
 
 .side {
 	float: right;
 	width: 29%;
 	font-size: 1em;
 	line-height: 1.2em;
+	margin-left: 0;
 }
 
 .footer {
