@@ -343,7 +343,7 @@ height: 50em;
 .mainnav ul {
 	list-style: none;
 	list-style-image: none;
-	padding-top: 60px;
+	padding-top: 50px;
 	margin-right: 1em;
 	float: left;
 	width: 13%;
@@ -352,6 +352,7 @@ height: 50em;
 	border: 7px solid #3B3E41;
 	position: static;
 	display:block;
+	
 }
 
 .content {
@@ -372,6 +373,7 @@ height: 50em;
 	margin-top: 2em;
 	text-overflow:clip;
 	margin-right: 1em;
+	font-size:1.2em;
 }
 img {
 width: 100%;}
