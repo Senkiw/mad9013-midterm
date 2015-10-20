@@ -261,7 +261,6 @@ h1 {
 	background-color: #7F7F7F;
 	border: 12px solid #3B3E41;
 	position: static;
-	
 }
 
 nav li {
@@ -319,3 +318,5 @@ footer {
 	font-size: 1em;
 }
 }
+
+@media only screen and (min-width : 60em ) and (max-width : 1600px ){
