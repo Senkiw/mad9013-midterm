@@ -369,13 +369,12 @@ height: 50em;
 	/*firefox*/
 
 	column-count: 2;
-	column-gap: 2rem;
+	column-gap: 2em;
 	margin-top: 2em;
 	text-overflow:clip;
-	margin-right: 1em;
-	font-size:1.6em;
+	margin-right: 2em;
+	font-size:1.5em;
 	line-height: 1.7em;
-	
 }
 img {
 width: 100%;}
@@ -429,5 +428,4 @@ h2 {
 .mainnav li {
 	font-size: 1.2em;	
 	}
-
 }
