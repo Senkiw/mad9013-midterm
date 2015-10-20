@@ -359,7 +359,7 @@ width: 100%;
 	width: 54%;
 	text-align: justify;
 	font-size: 2em; 
-	line-height: 2.5em;
+	line-height: 2em;
 	-webkit-column-count: 2;
 	-webkit-column-gap: 2rem;
 	/*chrome*/
@@ -383,4 +383,27 @@ footer{
 	width: 1600px;
 	height: 100em;
 }
+
+h1 {
+	text-align: center;
+	line-height: 1.2em;
+	line-height: inherit;
+	margin: 1.414em 0 0.5em;
+	text-shadow: 2px 2px #3B3E41;
+	width: 100%;
+	padding: 100px 0 0 0;
+	color:#FFF;
+	margin-top: 0;
+	font-size: 4.236em;
+}
+
+.masthead{
+	float:clear;
+	padding-right:0;
+	padding-left:0;
+	width: 100%; 
+	height: 25em;
+	margin: 0;
+		}
+
 }
